@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="369439e4-ea71-4727-896a-5cb7db461005" name="physique pompier (project level)" url="https://dev.physiquepompier.com/">
+        <fileTransfer host="domaine-primom.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="44d5097e-967e-4c33-8a76-287eb51b9a09" name="p3f.dev" url="http://ftp.p3f.dev">
+        <fileTransfer host="ftp.p3f.dev" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

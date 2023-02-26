@@ -1,0 +1,24 @@
+{
+    "name": "budget",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "clear && echo 'php 8.0 : http://localhost:3282' && vite",
+        "build": "vite build",
+        "build-dev": "vite build --mode developpement",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@vuepic/vue-datepicker": "^3.6.0",
+        "axios": "^1.2.1",
+        "vue": "^3.2.41",
+        "vue-router": "^4.1.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.1.2",
+        "@vueform/multiselect": "^2.5.7",
+        "install": "^0.13.0",
+        "sass": "^1.54.3",
+        "sass-loader": "^13.0.2",
+        "vite": "^3.1.8"
+    }
+}
